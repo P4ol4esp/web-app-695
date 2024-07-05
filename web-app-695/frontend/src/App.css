@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+.block-navegation{
+  background-color: rgb(41, 7, 105);
+}
+
+.block-items{
+  display: inline;
+  text-align: center;
+  
+}
+
+#btn-nav{
+  
+  background-color: rgb(41, 7, 105);
+  color: rgb(250, 134, 25);
+  font-size: 25px;
+  border: 35px;
+  padding: 1%;
+  
+  
+}
+
+p{
+  font-size: 20px;
+  margin: 0.5%;
+  text-align: center;
+}
+
+#img-home{
+  height: 200px;
+  image-orientation: center;
+}
+
+.img-icon{
+  height: 120px;
+}
