@@ -30,7 +30,7 @@ export function insertar_usuarios(name, id, lastname){
 }
 
 export function consultar_usuarios(id){
-    let instruction_sql = "SELECT * FROM ..."
+    let instruction_sql = "SELECT * FROM users WHERE id="+id+""
     connection.query(instruction_sql, (err, result) => {
         if(err){
             console.log("Error " + err)
