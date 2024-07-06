@@ -36,7 +36,7 @@ export function consultar_usuarios(id){
             console.log("Error " + err)
         }
         else{
-            console.log("Usuario Agregado")
+            console.log("Usuario Consultado")
             return result
         }
     })
